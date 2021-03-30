@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tic-tac-toe game</h1>
+    <h3>Round *</h3>
+
+    <div>
+        <label>
+            <input type = "text" class = "playerX">
+        </label> play against <label>
+        <input type = "text" class = "playerO">
+    </label>
+        <button class = "confirm">Confirm</button>
+    <div class ="out1">* plays for crosses</div> <div class="out2">* plays for toes</div>
+        <div class = "move"> Whose move? </div>
+    </div>
+
+    <div class="table" id ="table">
+        
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        
+    </div>
+
+    <div class="playAgain">
+    <button class="playAgain" type="submit"  onClick="reloadPage()">Click to play again</button>
+    <script src="script.js" defer></script>
+</div>
+</body>
+</html>

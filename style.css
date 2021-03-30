@@ -1,0 +1,52 @@
+html{
+    height: 100% !important;
+}
+body{
+    background: linear-gradient(to bottom, #e7e5ec, #504955);
+}
+
+h1, h3, div{
+text-align: center;
+}
+
+button, input{
+    border: 1px solid brown;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.playAgain{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(3, 115px);
+    grid-template-rows: repeat(3, 115px);
+    border-collapse: collapse;
+    border-style: hidden;
+    margin: 5px auto auto;
+    justify-content: center;
+}
+
+.cell{
+    border: 1px solid black;
+    background-color: white;
+    opacity: 1;
+    text-align: left;
+}
+
+.cell:hover{
+    background-color: #ececec;
+    cursor: pointer;
+}
+
+img{
+    padding: 3px;
+    width: 110px;
+    height: 110px;
+    box-sizing: border-box;
+    position: relative;
+}
